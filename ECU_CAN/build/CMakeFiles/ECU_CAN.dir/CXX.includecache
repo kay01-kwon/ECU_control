@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kay/Documents/practice/cpp/ECU_CAN/src/ECU_CAN.cpp
+linux/can.h
+-
+linux/can/raw.h
+-
+net/if.h
+-
+sys/ioctl.h
+-
+sys/socket.h
+-
+errno.h
+-
+unistd.h
+-
+stdio.h
+-
+stdint.h
+-
+string.h
+-
+iostream
+-
+
